@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutdoorCR.Web", "OutdoorCR.Web\OutdoorCR.Web.csproj", "{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutdoorCR.Application", "OutdoorCR.Application\OutdoorCR.Application.csproj", "{78D5525E-F236-40ED-B970-A42EA6101F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutdoorCR.Infraestructure", "OutdoorCR.Infraestructure\OutdoorCR.Infraestructure.csproj", "{DC328F0B-9352-4BB1-BEC8-8DCED074D52F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D5525E-F236-40ED-B970-A42EA6101F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D5525E-F236-40ED-B970-A42EA6101F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D5525E-F236-40ED-B970-A42EA6101F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D5525E-F236-40ED-B970-A42EA6101F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC328F0B-9352-4BB1-BEC8-8DCED074D52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC328F0B-9352-4BB1-BEC8-8DCED074D52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC328F0B-9352-4BB1-BEC8-8DCED074D52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC328F0B-9352-4BB1-BEC8-8DCED074D52F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

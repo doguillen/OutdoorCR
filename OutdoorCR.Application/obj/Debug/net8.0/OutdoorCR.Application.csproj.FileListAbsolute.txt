@@ -1,0 +1,16 @@
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\bin\Debug\net8.0\OutdoorCR.Application.deps.json
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\bin\Debug\net8.0\OutdoorCR.Application.dll
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\bin\Debug\net8.0\OutdoorCR.Application.pdb
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\bin\Debug\net8.0\OutdoorCR.Infraestructure.dll
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\bin\Debug\net8.0\OutdoorCR.Infraestructure.pdb
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\OutdoorCR.Application.csproj.AssemblyReference.cache
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\OutdoorCR.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\OutdoorCR.Application.AssemblyInfoInputs.cache
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\OutdoorCR.Application.AssemblyInfo.cs
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\OutdoorCR.Application.csproj.CoreCompileInputs.cache
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\OutdoorCR.Application.sourcelink.json
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\OutdoorC.4A0FCACE.Up2Date
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\OutdoorCR.Application.dll
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\refint\OutdoorCR.Application.dll
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\OutdoorCR.Application.pdb
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Application\obj\Debug\net8.0\ref\OutdoorCR.Application.dll

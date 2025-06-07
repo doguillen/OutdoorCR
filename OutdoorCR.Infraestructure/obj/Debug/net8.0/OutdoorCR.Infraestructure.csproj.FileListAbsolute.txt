@@ -1,0 +1,15 @@
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\bin\Debug\net8.0\OutdoorCR.Infraestructure.deps.json
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\bin\Debug\net8.0\OutdoorCR.Infraestructure.runtimeconfig.json
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\bin\Debug\net8.0\OutdoorCR.Infraestructure.dll
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\bin\Debug\net8.0\OutdoorCR.Infraestructure.pdb
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\OutdoorCR.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\OutdoorCR.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\OutdoorCR.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\OutdoorCR.Infraestructure.AssemblyInfo.cs
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\OutdoorCR.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\OutdoorCR.Infraestructure.sourcelink.json
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\OutdoorCR.Infraestructure.dll
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\refint\OutdoorCR.Infraestructure.dll
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\OutdoorCR.Infraestructure.pdb
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\OutdoorCR.Infraestructure.genruntimeconfig.cache
+C:\Users\Diego Guillen\Documents\GitHub\OutdoorCR\OutdoorCR.Infraestructure\obj\Debug\net8.0\ref\OutdoorCR.Infraestructure.dll
