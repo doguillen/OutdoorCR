@@ -11,69 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
-
-
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">OutdoorCR</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Bu" />
-                    </form>
-
-                    <ul class="navbar-nav ms-auto">
-
-                        <li class="nav-item">
-                            <a class="nav-link text-white">Inicio</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Montaña
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Action</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">Privacy</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Action</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Pesca
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Action</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">Privacy</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Action</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Camping
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Action</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">Privacy</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Action</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Acerca</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        @await Html.PartialAsync("_Menu");
     </header>
     <div class="container">
         <main role="main" class="pb-3">
