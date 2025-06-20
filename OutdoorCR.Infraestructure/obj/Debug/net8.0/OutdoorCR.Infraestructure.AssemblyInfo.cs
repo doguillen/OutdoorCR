@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OutdoorCR.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e051d3b7efe7714ce2ea1b0b52595fb877d07ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3632c271b5cb64f4ac01ff2059d1383ad60e8201")]
 [assembly: System.Reflection.AssemblyProductAttribute("OutdoorCR.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OutdoorCR.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

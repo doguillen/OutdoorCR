@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego Guillen\\source\\repos\\doguillen\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {}
+    "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego Guillen\\source\\repos\\doguillen\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {
+    "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Guillen\\source\\repos\\doguillen\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj",
         "projectName": "OutdoorCR.Infraestructure",
-        "projectPath": "C:\\Users\\Diego Guillen\\source\\repos\\doguillen\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Diego Guillen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Guillen\\source\\repos\\doguillen\\OutdoorCR\\OutdoorCR.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

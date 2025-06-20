@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Web\\OutdoorCR.Web.csproj": {}
+    "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Web\\OutdoorCR.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj": {
+    "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj",
         "projectName": "OutdoorCR.Application",
-        "projectPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj",
+        "projectPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj",
         "packagesPath": "C:\\Users\\Diego Guillen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Application\\obj\\",
+        "outputPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj"
+              "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj"
               }
             }
           }
@@ -75,18 +75,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {
+    "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj",
         "projectName": "OutdoorCR.Infraestructure",
-        "projectPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Diego Guillen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -129,11 +129,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[9.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[9.0.6, )"
             }
           },
           "imports": [
@@ -152,18 +152,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Web\\OutdoorCR.Web.csproj": {
+    "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Web\\OutdoorCR.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Web\\OutdoorCR.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Web\\OutdoorCR.Web.csproj",
         "projectName": "OutdoorCR.Web",
-        "projectPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Web\\OutdoorCR.Web.csproj",
+        "projectPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Web\\OutdoorCR.Web.csproj",
         "packagesPath": "C:\\Users\\Diego Guillen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Web\\obj\\",
+        "outputPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -184,11 +184,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj": {
-                "projectPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj"
+              "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj": {
+                "projectPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Application\\OutdoorCR.Application.csproj"
               },
-              "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj"
+              "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Diego Guillen\\Source\\Repos\\OutdoorCR\\OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj"
               }
             }
           }
@@ -245,7 +245,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

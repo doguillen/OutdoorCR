@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\",
+  "WorkspaceRootPath": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}|OutdoorCR.Web\\OutdoorCR.Web.csproj|c:\\users\\diego guillen\\documents\\github\\outdoorcr\\outdoorcr.web\\views\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}|OutdoorCR.Web\\OutdoorCR.Web.csproj|solutionrelative:outdoorcr.web\\views\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{78D5525E-F236-40ED-B970-A42EA6101F96}|OutdoorCR.Application\\OutdoorCR.Application.csproj|c:\\users\\diego guillen\\source\\repos\\outdoorcr\\outdoorcr.application\\services\\implementations\\serviceproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D5525E-F236-40ED-B970-A42EA6101F96}|OutdoorCR.Application\\OutdoorCR.Application.csproj|solutionrelative:outdoorcr.application\\services\\implementations\\serviceproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}|OutdoorCR.Web\\OutdoorCR.Web.csproj|c:\\users\\diego guillen\\documents\\github\\outdoorcr\\outdoorcr.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{78D5525E-F236-40ED-B970-A42EA6101F96}|OutdoorCR.Application\\OutdoorCR.Application.csproj|c:\\users\\diego guillen\\source\\repos\\outdoorcr\\outdoorcr.application\\services\\interfaces\\iserviceproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D5525E-F236-40ED-B970-A42EA6101F96}|OutdoorCR.Application\\OutdoorCR.Application.csproj|solutionrelative:outdoorcr.application\\services\\interfaces\\iserviceproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC328F0B-9352-4BB1-BEC8-8DCED074D52F}|OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj|c:\\users\\diego guillen\\source\\repos\\outdoorcr\\outdoorcr.infraestructure\\repository\\implementations\\repositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC328F0B-9352-4BB1-BEC8-8DCED074D52F}|OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj|solutionrelative:outdoorcr.infraestructure\\repository\\implementations\\repositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D5525E-F236-40ED-B970-A42EA6101F96}|OutdoorCR.Application\\OutdoorCR.Application.csproj|c:\\users\\diego guillen\\source\\repos\\outdoorcr\\outdoorcr.application\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D5525E-F236-40ED-B970-A42EA6101F96}|OutdoorCR.Application\\OutdoorCR.Application.csproj|solutionrelative:outdoorcr.application\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC328F0B-9352-4BB1-BEC8-8DCED074D52F}|OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj|c:\\users\\diego guillen\\source\\repos\\outdoorcr\\outdoorcr.infraestructure\\repository\\interfaces\\irepositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC328F0B-9352-4BB1-BEC8-8DCED074D52F}|OutdoorCR.Infraestructure\\OutdoorCR.Infraestructure.csproj|solutionrelative:outdoorcr.infraestructure\\repository\\interfaces\\irepositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}|OutdoorCR.Web\\OutdoorCR.Web.csproj|c:\\users\\diego guillen\\source\\repos\\outdoorcr\\outdoorcr.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}|OutdoorCR.Web\\OutdoorCR.Web.csproj|solutionrelative:outdoorcr.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}|OutdoorCR.Web\\OutdoorCR.Web.csproj|c:\\users\\diego guillen\\source\\repos\\outdoorcr\\outdoorcr.web\\views\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E1D65D9-B09A-4BF2-A772-4ABA55A2DD5C}|OutdoorCR.Web\\OutdoorCR.Web.csproj|solutionrelative:outdoorcr.web\\views\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,33 +42,97 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IServiceProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Application\\Services\\Interfaces\\IServiceProducto.cs",
+              "RelativeDocumentMoniker": "OutdoorCR.Application\\Services\\Interfaces\\IServiceProducto.cs",
+              "ToolTip": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Application\\Services\\Interfaces\\IServiceProducto.cs",
+              "RelativeToolTip": "OutdoorCR.Application\\Services\\Interfaces\\IServiceProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:00:28.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Application\\Services\\Implementations\\ServiceProducto.cs",
+              "RelativeDocumentMoniker": "OutdoorCR.Application\\Services\\Implementations\\ServiceProducto.cs",
+              "ToolTip": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Application\\Services\\Implementations\\ServiceProducto.cs",
+              "RelativeToolTip": "OutdoorCR.Application\\Services\\Implementations\\ServiceProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:00:09.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Application\\DTOs\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "OutdoorCR.Application\\DTOs\\ProductoDTO.cs",
+              "ToolTip": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Application\\DTOs\\ProductoDTO.cs",
+              "RelativeToolTip": "OutdoorCR.Application\\DTOs\\ProductoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T04:58:24.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepositoryProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Infraestructure\\Repository\\Interfaces\\IRepositoryProducto.cs",
+              "RelativeDocumentMoniker": "OutdoorCR.Infraestructure\\Repository\\Interfaces\\IRepositoryProducto.cs",
+              "ToolTip": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Infraestructure\\Repository\\Interfaces\\IRepositoryProducto.cs",
+              "RelativeToolTip": "OutdoorCR.Infraestructure\\Repository\\Interfaces\\IRepositoryProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T04:55:01.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Infraestructure\\Repository\\Implementations\\RepositoryProducto.cs",
+              "RelativeDocumentMoniker": "OutdoorCR.Infraestructure\\Repository\\Implementations\\RepositoryProducto.cs",
+              "ToolTip": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Infraestructure\\Repository\\Implementations\\RepositoryProducto.cs",
+              "RelativeToolTip": "OutdoorCR.Infraestructure\\Repository\\Implementations\\RepositoryProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T04:54:40.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Web\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "OutdoorCR.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "OutdoorCR.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-19T04:47:23.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "_Menu.cshtml",
-              "DocumentMoniker": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Web\\Views\\Shared\\_Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Web\\Views\\Shared\\_Menu.cshtml",
               "RelativeDocumentMoniker": "OutdoorCR.Web\\Views\\Shared\\_Menu.cshtml",
-              "ToolTip": "C:\\Users\\Diego Guillen\\Documents\\GitHub\\OutdoorCR\\OutdoorCR.Web\\Views\\Shared\\_Menu.cshtml",
+              "ToolTip": "C:\\Users\\Diego Guillen\\source\\repos\\OutdoorCR\\OutdoorCR.Web\\Views\\Shared\\_Menu.cshtml",
               "RelativeToolTip": "OutdoorCR.Web\\Views\\Shared\\_Menu.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T04:48:18.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T04:48:18.684Z"
             }
           ]
         }
