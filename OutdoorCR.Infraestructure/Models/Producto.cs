@@ -19,7 +19,7 @@ public partial class Producto
 
     public decimal? PromedioValoracion { get; set; }
 
-    public bool? Activo { get; set; }
+    public bool? Estado { get; set; }
 
     public virtual ICollection<CarritoDetalle> CarritoDetalle { get; set; } = new List<CarritoDetalle>();
 
@@ -29,9 +29,9 @@ public partial class Producto
 
     public virtual ICollection<PedidoDetalle> PedidoDetalle { get; set; } = new List<PedidoDetalle>();
 
+    public virtual ICollection<ProductoEtiqueta> ProductoEtiqueta { get; set; } = new List<ProductoEtiqueta>();
+
     public virtual ICollection<Promocion> Promocion { get; set; } = new List<Promocion>();
 
-    public virtual ICollection<Reseña> Reseña { get; set; } = new List<Reseña>();
-
-    public virtual ICollection<Etiqueta> Etiqueta { get; set; } = new List<Etiqueta>();
+    public virtual ICollection<Resena> Resena { get; set; } = new List<Resena>();
 }

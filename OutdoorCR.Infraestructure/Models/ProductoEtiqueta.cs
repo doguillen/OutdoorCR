@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace OutdoorCR.Infraestructure.Models;
 
-public partial class ImagenProducto
+public partial class ProductoEtiqueta
 {
-    public int Id { get; set; }
-
     public int ProductoId { get; set; }
 
-    public byte[] Imagen { get; set; } = null!;
+    public int EtiquetaId { get; set; }
 
     public bool? Estado { get; set; }
+
+    public virtual Etiqueta Etiqueta { get; set; } = null!;
 
     public virtual Producto Producto { get; set; } = null!;
 }

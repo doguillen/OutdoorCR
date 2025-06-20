@@ -32,9 +32,11 @@ public partial class OutdoorCRContext : DbContext
 
     public virtual DbSet<Producto> Producto { get; set; }
 
+    public virtual DbSet<ProductoEtiqueta> ProductoEtiqueta { get; set; }
+
     public virtual DbSet<Promocion> Promocion { get; set; }
 
-    public virtual DbSet<Reseña> Reseña { get; set; }
+    public virtual DbSet<Resena> Resena { get; set; }
 
     public virtual DbSet<Rol> Rol { get; set; }
 
@@ -44,7 +46,7 @@ public partial class OutdoorCRContext : DbContext
     {
         modelBuilder.Entity<Carrito>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Carrito__3214EC07370F606B");
+            entity.HasKey(e => e.Id).HasName("PK__Carrito__3214EC07139BF60A");
 
             entity.Property(e => e.FechaCreacion)
                 .HasDefaultValueSql("(getdate())")
@@ -53,48 +55,48 @@ public partial class OutdoorCRContext : DbContext
             entity.HasOne(d => d.Usuario).WithMany(p => p.Carrito)
                 .HasForeignKey(d => d.UsuarioId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Carrito__Usuario__45F365D3");
+                .HasConstraintName("FK__Carrito__Usuario__47DBAE45");
         });
 
         modelBuilder.Entity<CarritoDetalle>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__CarritoD__3214EC07391BA42B");
+            entity.HasKey(e => e.Id).HasName("PK__CarritoD__3214EC078FD697E4");
 
             entity.HasOne(d => d.Carrito).WithMany(p => p.CarritoDetalle)
                 .HasForeignKey(d => d.CarritoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CarritoDe__Carri__48CFD27E");
+                .HasConstraintName("FK__CarritoDe__Carri__4AB81AF0");
 
             entity.HasOne(d => d.Producto).WithMany(p => p.CarritoDetalle)
                 .HasForeignKey(d => d.ProductoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CarritoDe__Produ__49C3F6B7");
+                .HasConstraintName("FK__CarritoDe__Produ__4BAC3F29");
         });
 
         modelBuilder.Entity<Categoria>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Categori__3214EC07522B8E56");
+            entity.HasKey(e => e.Id).HasName("PK__Categori__3214EC07D558C619");
 
             entity.Property(e => e.Nombre).HasMaxLength(100);
         });
 
         modelBuilder.Entity<EstadoPedido>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__EstadoPe__3214EC07DB3DF3D4");
+            entity.HasKey(e => e.Id).HasName("PK__EstadoPe__3214EC075E74AF48");
 
             entity.Property(e => e.Nombre).HasMaxLength(50);
         });
 
         modelBuilder.Entity<Etiqueta>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Etiqueta__3214EC077DF3D25F");
+            entity.HasKey(e => e.Id).HasName("PK__Etiqueta__3214EC07B4D88542");
 
             entity.Property(e => e.Nombre).HasMaxLength(50);
         });
 
         modelBuilder.Entity<HistorialEstadoPedido>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Historia__3214EC07A5E318E5");
+            entity.HasKey(e => e.Id).HasName("PK__Historia__3214EC07E75D9AE5");
 
             entity.Property(e => e.FechaCambio)
                 .HasDefaultValueSql("(getdate())")
@@ -103,31 +105,32 @@ public partial class OutdoorCRContext : DbContext
             entity.HasOne(d => d.Estado).WithMany(p => p.HistorialEstadoPedido)
                 .HasForeignKey(d => d.EstadoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Historial__Estad__5812160E");
+                .HasConstraintName("FK__Historial__Estad__5AEE82B9");
 
             entity.HasOne(d => d.Pedido).WithMany(p => p.HistorialEstadoPedido)
                 .HasForeignKey(d => d.PedidoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Historial__Pedid__571DF1D5");
+                .HasConstraintName("FK__Historial__Pedid__59FA5E80");
         });
 
         modelBuilder.Entity<ImagenProducto>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__ImagenPr__3214EC07CCDD0D9F");
+            entity.HasKey(e => e.Id).HasName("PK__ImagenPr__3214EC07B9C826A1");
 
-            entity.Property(e => e.UrlImagen).HasMaxLength(255);
+            entity.Property(e => e.Estado).HasDefaultValue(true);
 
             entity.HasOne(d => d.Producto).WithMany(p => p.ImagenProducto)
                 .HasForeignKey(d => d.ProductoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ImagenPro__Produ__30F848ED");
+                .HasConstraintName("FK__ImagenPro__Produ__31EC6D26");
         });
 
         modelBuilder.Entity<Pedido>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Pedido__3214EC07E6062578");
+            entity.HasKey(e => e.Id).HasName("PK__Pedido__3214EC0719CF1FAB");
 
             entity.Property(e => e.DireccionEnvio).HasMaxLength(255);
+            entity.Property(e => e.Estado).HasDefaultValue(true);
             entity.Property(e => e.FechaPedido)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
@@ -135,30 +138,31 @@ public partial class OutdoorCRContext : DbContext
             entity.HasOne(d => d.Usuario).WithMany(p => p.Pedido)
                 .HasForeignKey(d => d.UsuarioId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Pedido__UsuarioI__4D94879B");
+                .HasConstraintName("FK__Pedido__UsuarioI__5070F446");
         });
 
         modelBuilder.Entity<PedidoDetalle>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__PedidoDe__3214EC07745908FE");
+            entity.HasKey(e => e.Id).HasName("PK__PedidoDe__3214EC073ADDC7C0");
 
             entity.HasOne(d => d.Pedido).WithMany(p => p.PedidoDetalle)
                 .HasForeignKey(d => d.PedidoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__PedidoDet__Pedid__5070F446");
+                .HasConstraintName("FK__PedidoDet__Pedid__534D60F1");
 
             entity.HasOne(d => d.Producto).WithMany(p => p.PedidoDetalle)
                 .HasForeignKey(d => d.ProductoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__PedidoDet__Produ__5165187F");
+                .HasConstraintName("FK__PedidoDet__Produ__5441852A");
         });
 
         modelBuilder.Entity<Producto>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Producto__3214EC07DE57E03C");
+            entity.HasKey(e => e.Id).HasName("PK__Producto__3214EC079C1E1815");
 
-            entity.Property(e => e.Activo).HasDefaultValue(true);
-            entity.Property(e => e.Nombre).HasMaxLength(100);
+            entity.Property(e => e.Descripcion).HasMaxLength(100);
+            entity.Property(e => e.Estado).HasDefaultValue(true);
+            entity.Property(e => e.Nombre).HasMaxLength(50);
             entity.Property(e => e.Precio).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.PromedioValoracion)
                 .HasDefaultValue(0m)
@@ -168,72 +172,73 @@ public partial class OutdoorCRContext : DbContext
                 .HasForeignKey(d => d.CategoriaId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Producto__Catego__2E1BDC42");
+        });
 
-            entity.HasMany(d => d.Etiqueta).WithMany(p => p.Producto)
-                .UsingEntity<Dictionary<string, object>>(
-                    "ProductoEtiqueta",
-                    r => r.HasOne<Etiqueta>().WithMany()
-                        .HasForeignKey("EtiquetaId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__ProductoE__Etiqu__36B12243"),
-                    l => l.HasOne<Producto>().WithMany()
-                        .HasForeignKey("ProductoId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__ProductoE__Produ__35BCFE0A"),
-                    j =>
-                    {
-                        j.HasKey("ProductoId", "EtiquetaId").HasName("PK__Producto__87F6992208205997");
-                    });
+        modelBuilder.Entity<ProductoEtiqueta>(entity =>
+        {
+            entity.HasKey(e => new { e.ProductoId, e.EtiquetaId }).HasName("PK__Producto__87F69922CEDEED19");
+
+            entity.Property(e => e.Estado).HasDefaultValue(true);
+
+            entity.HasOne(d => d.Etiqueta).WithMany(p => p.ProductoEtiqueta)
+                .HasForeignKey(d => d.EtiquetaId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__ProductoE__Etiqu__38996AB5");
+
+            entity.HasOne(d => d.Producto).WithMany(p => p.ProductoEtiqueta)
+                .HasForeignKey(d => d.ProductoId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__ProductoE__Produ__37A5467C");
         });
 
         modelBuilder.Entity<Promocion>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Promocio__3214EC078A80CA53");
+            entity.HasKey(e => e.Id).HasName("PK__Promocio__3214EC07A603E0A0");
 
             entity.Property(e => e.Descuento).HasColumnType("decimal(5, 2)");
             entity.Property(e => e.Tipo).HasMaxLength(20);
 
             entity.HasOne(d => d.Categoria).WithMany(p => p.Promocion)
                 .HasForeignKey(d => d.CategoriaId)
-                .HasConstraintName("FK__Promocion__Categ__4222D4EF");
+                .HasConstraintName("FK__Promocion__Categ__440B1D61");
 
             entity.HasOne(d => d.Producto).WithMany(p => p.Promocion)
                 .HasForeignKey(d => d.ProductoId)
-                .HasConstraintName("FK__Promocion__Produ__412EB0B6");
+                .HasConstraintName("FK__Promocion__Produ__4316F928");
         });
 
-        modelBuilder.Entity<Reseña>(entity =>
+        modelBuilder.Entity<Resena>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Reseña__3214EC07B6E39BAB");
+            entity.HasKey(e => e.Id).HasName("PK__Resena__3214EC0752312897");
 
+            entity.Property(e => e.Estado).HasDefaultValue(true);
             entity.Property(e => e.Fecha)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
-            entity.Property(e => e.Visible).HasDefaultValue(true);
 
-            entity.HasOne(d => d.Producto).WithMany(p => p.Reseña)
+            entity.HasOne(d => d.Producto).WithMany(p => p.Resena)
                 .HasForeignKey(d => d.ProductoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Reseña__Producto__3D5E1FD2");
+                .HasConstraintName("FK__Resena__Producto__3F466844");
 
-            entity.HasOne(d => d.Usuario).WithMany(p => p.Reseña)
+            entity.HasOne(d => d.Usuario).WithMany(p => p.Resena)
                 .HasForeignKey(d => d.UsuarioId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Reseña__UsuarioI__3C69FB99");
+                .HasConstraintName("FK__Resena__UsuarioI__3E52440B");
         });
 
         modelBuilder.Entity<Rol>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Rol__3214EC0755A84BA0");
+            entity.HasKey(e => e.Id).HasName("PK__Rol__3214EC076A6A94AC");
 
             entity.Property(e => e.Nombre).HasMaxLength(50);
         });
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Usuario__3214EC0780979792");
+            entity.HasKey(e => e.Id).HasName("PK__Usuario__3214EC07362F3D0F");
 
-            entity.HasIndex(e => e.CorreoElectronico, "UQ__Usuario__531402F33AF6F504").IsUnique();
+            entity.HasIndex(e => e.CorreoElectronico, "UQ__Usuario__531402F36668F78B").IsUnique();
 
             entity.Property(e => e.ContrasenaHash).HasMaxLength(255);
             entity.Property(e => e.CorreoElectronico).HasMaxLength(100);
@@ -243,7 +248,7 @@ public partial class OutdoorCRContext : DbContext
             entity.HasOne(d => d.Rol).WithMany(p => p.Usuario)
                 .HasForeignKey(d => d.RolId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Usuario__RolId__276EDEB3");
+                .HasConstraintName("FK__Usuario__Estado__276EDEB3");
         });
 
         OnModelCreatingPartial(modelBuilder);

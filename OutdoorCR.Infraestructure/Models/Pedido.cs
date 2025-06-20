@@ -13,6 +13,8 @@ public partial class Pedido
 
     public string DireccionEnvio { get; set; } = null!;
 
+    public bool? Estado { get; set; }
+
     public virtual ICollection<HistorialEstadoPedido> HistorialEstadoPedido { get; set; } = new List<HistorialEstadoPedido>();
 
     public virtual ICollection<PedidoDetalle> PedidoDetalle { get; set; } = new List<PedidoDetalle>();

@@ -9,5 +9,5 @@ public partial class Etiqueta
 
     public string Nombre { get; set; } = null!;
 
-    public virtual ICollection<Producto> Producto { get; set; } = new List<Producto>();
+    public virtual ICollection<ProductoEtiqueta> ProductoEtiqueta { get; set; } = new List<ProductoEtiqueta>();
 }

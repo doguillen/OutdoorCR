@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace OutdoorCR.Infraestructure.Models;
 
-public partial class Reseña
+public partial class Resena
 {
     public int Id { get; set; }
 
@@ -17,7 +17,7 @@ public partial class Reseña
 
     public int? Valoracion { get; set; }
 
-    public bool? Visible { get; set; }
+    public bool? Estado { get; set; }
 
     public virtual Producto Producto { get; set; } = null!;
 
